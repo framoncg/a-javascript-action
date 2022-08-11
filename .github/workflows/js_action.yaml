@@ -9,6 +9,11 @@ jobs:
     steps:
       - name: saludo
         run: echo "Hola Mundo"
+  action2:
+    runs-on: windows-latest
+    steps:
+      - name: saludo-windows
+        run: echo "Hola en windows"
       # - uses: actions/checkout@v1
       # - name: hello-action
       #   uses: ./.github/actions/hello_world
